@@ -1,5 +1,6 @@
 #start a tomcat-base image
-From centos:centos7
+#From centos:centos7
+From centos:latest
 MAINTAINER "gagahjt" <hjt2009@foxmail.com>
 ENV container docker
 
@@ -48,6 +49,6 @@ EXPOSE 8009
 CMD ["catalina.sh", "run"]
 #CMD /usr/local/tomcat/bin/catalina.sh run
 
-#docker run -d -p 58080:8080 -v /_docker_data/webapps/:/usr/local/tomcat/webapps -v /_docker_data/logs/:/usr/local/tomcat/logs/ d6a3ab7f3849	--Æô¶¯tomcat
+#docker run -d -p 58080:8080 -v /_docker_data/webapps/:/usr/local/tomcat/webapps -v /_docker_data/logs/:/usr/local/tomcat/logs/ d6a3ab7f3849	--Ã†Ã´Â¶Â¯tomcat
 
-#docker run -i -t -p 58080:8080 -v /_docker_data/webapps/:/usr/local/tomcat/webapps -v /_docker_data/logs/:/usr/local/tomcat/logs/ d6a3ab7f3849 /bin/bash  ---Æô¶¯¾µÏñcentos 
+#docker run -i -t -p 58080:8080 -v /_docker_data/webapps/:/usr/local/tomcat/webapps -v /_docker_data/logs/:/usr/local/tomcat/logs/ d6a3ab7f3849 /bin/bash  ---Ã†Ã´Â¶Â¯Â¾ÂµÃÃ±centos 
