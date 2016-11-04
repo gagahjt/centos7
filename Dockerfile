@@ -1,5 +1,6 @@
 #start a tomcat-base image
-From centos:centos7
+#From centos:centos7
+From centos:latest
 MAINTAINER "gagahjt" <hjt2009@foxmail.com>
 ENV container docker
 
